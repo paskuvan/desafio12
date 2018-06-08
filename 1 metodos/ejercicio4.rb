@@ -2,6 +2,4 @@
 # debe recibir un parametro, si ese parametro es el string "Hola" el
 # metodo debe mostrar en pantalla "Hola Mundo".
 
-def saludo()
-	puts "Hola Mundo"
-end
+puts "Hola Mundo"
