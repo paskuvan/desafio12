@@ -4,12 +4,13 @@
 # <div class='product'><p> Producto3 </p><p> Precio: 1500 </p></div>
 # <div class='product'><p> Producto4 </p><p> Precio: 950 </p></div>
 
-products = %w(Producto1 Producto2 Producto3 Producto4)
+products = %w[Product1 Product2 Product3 Product4]
 prices = %w[1000 2000 1500 950]
 
 html = ''
-products.each do |i|
-  html += "<div class='product'>"
+products.each_with_index do |ele, i|
+  a = "<p> Price: #{prices[i]} </p>" #agregar el precio del producto
+  html += "<div class='product'>" + "<p> #{ele} </p>" + a #mostrar el resultado producto, precio
   html += "</div>\n"
 end
 
