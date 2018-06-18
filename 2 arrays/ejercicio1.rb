@@ -5,9 +5,11 @@
 # 4. Mostrar en pantalla todos los elementos junto con un indice.
 # 5. Mostrar en pantalla todos los elementos que se encuentren.
 
-arreglo = [1,2,3,9,1,4,5,2,3,6,6],
+arreglo = [1,2,3,9,1,4,5,2,3,6,6]
 
 puts arreglo [0]
+
+puts arreglo [-1]
 
 print arreglo, "\n"
 
